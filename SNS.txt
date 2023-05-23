@@ -1,0 +1,36 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "sns:ListTagsForResource",
+                "sns:ListSubscriptionsByTopic",
+                "sns:GetTopicAttributes",
+                "sns:GetDataProtectionPolicy"
+            ],
+            "Resource": "arn:aws:sns:*:239057251940:*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "sns:ListSMSSandboxPhoneNumbers",
+                "sns:ListTopics",
+                "sns:GetPlatformApplicationAttributes",
+                "sns:GetSubscriptionAttributes",
+                "sns:ListSubscriptions",
+                "sns:CheckIfPhoneNumberIsOptedOut",
+                "sns:ListOriginationNumbers",
+                "sns:ListPhoneNumbersOptedOut",
+                "sns:ListEndpointsByPlatformApplication",
+                "sns:GetEndpointAttributes",
+                "sns:GetSMSSandboxAccountStatus",
+                "sns:GetSMSAttributes",
+                "sns:ListPlatformApplications"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
