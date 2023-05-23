@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "batch:DescribeJobQueues",
+                "batch:DescribeJobs",
+                "batch:ListTagsForResource",
+                "batch:DescribeSchedulingPolicies",
+                "batch:DescribeJobDefinitions",
+                "batch:ListSchedulingPolicies",
+                "batch:ListJobs",
+                "batch:DescribeComputeEnvironments"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
