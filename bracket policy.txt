@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "braket:GetJob",
+                "braket:GetQuantumTask",
+                "braket:CancelQuantumTask",
+                "braket:CancelJob",
+                "braket:ListTagsForResource"
+            ],
+            "Resource": [
+                "arn:aws:braket:*:239057251940:quantum-task/*",
+                "arn:aws:braket:*:239057251940:job/*"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "braket:CreateJob",
+                "braket:GetDevice",
+                "braket:SearchDevices",
+                "braket:CreateQuantumTask",
+                "braket:SearchJobs",
+                "braket:SearchQuantumTasks"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
