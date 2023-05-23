@@ -1,0 +1,47 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "chatbot:UpdateChimeWebhookConfiguration",
+                "chatbot:UpdateSlackChannelConfiguration",
+                "chatbot:DeleteChimeWebhookConfiguration",
+                "chatbot:DeleteSlackChannelConfiguration"
+            ],
+            "Resource": "arn:aws:chatbot::239057251940:chat-configuration/*/*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "chatbot:RedeemSlackOauthCode",
+                "chatbot:UpdateAccountPreferences",
+                "chatbot:ListMicrosoftTeamsChannelConfigurations",
+                "chatbot:CreateSlackChannelConfiguration",
+                "chatbot:DeleteSlackWorkspaceAuthorization",
+                "chatbot:DescribeSlackChannels",
+                "chatbot:ListMicrosoftTeamsConfiguredTeams",
+                "chatbot:CreateMicrosoftTeamsChannelConfiguration",
+                "chatbot:DescribeSlackChannelConfigurations",
+                "chatbot:GetMicrosoftTeamsChannelConfiguration",
+                "chatbot:GetMicrosoftTeamsOauthParameters",
+                "chatbot:DeleteMicrosoftTeamsConfiguredTeam",
+                "chatbot:GetSlackOauthParameters",
+                "chatbot:DeleteMicrosoftTeamsChannelConfiguration",
+                "chatbot:RedeemMicrosoftTeamsOauthCode",
+                "chatbot:DescribeChimeWebhookConfigurations",
+                "chatbot:DescribeSlackWorkspaces",
+                "chatbot:DeleteSlackUserIdentity",
+                "chatbot:ListMicrosoftTeamsUserIdentities",
+                "chatbot:CreateChimeWebhookConfiguration",
+                "chatbot:GetAccountPreferences",
+                "chatbot:DeleteMicrosoftTeamsUserIdentity",
+                "chatbot:DescribeSlackUserIdentities",
+                "chatbot:UpdateMicrosoftTeamsChannelConfiguration"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
