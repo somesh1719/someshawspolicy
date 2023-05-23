@@ -1,0 +1,36 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "bugbust:GetEvent",
+                "bugbust:UntagResource",
+                "bugbust:ListPullRequests",
+                "bugbust:ListBugs",
+                "bugbust:UpdateWorkItem",
+                "bugbust:ListProfilingGroups",
+                "bugbust:ListTagsForResource",
+                "bugbust:UpdateEvent",
+                "bugbust:UpdateWorkItemAdmin",
+                "bugbust:GetJoinEventStatus",
+                "bugbust:JoinEvent",
+                "bugbust:ListEventScores",
+                "bugbust:ListEventParticipants",
+                "bugbust:TagResource",
+                "bugbust:EvaluateProfilingGroups"
+            ],
+            "Resource": "arn:aws:bugbust:*:239057251940:events/*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "bugbust:ListEvents",
+                "bugbust:CreateEvent"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
